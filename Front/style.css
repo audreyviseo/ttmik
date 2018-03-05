@@ -1,0 +1,19 @@
+#app{
+    margin: 30px 15%;
+    border: solid rgb(0,32,96) 2px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#app h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#app .boutons{
+    text-align:center;
+}
+#app .form-control{
+    border:2px solid #ced4da;
+}

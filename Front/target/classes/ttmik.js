@@ -6,6 +6,7 @@ var ttmik = function (_, Kotlin) {
   var ArrayList_init = Kotlin.kotlin.collections.ArrayList_init_ww73n8$;
   var Kind_CLASS = Kotlin.Kind.CLASS;
   var ensureNotNull = Kotlin.ensureNotNull;
+  var Unit = Kotlin.kotlin.Unit;
   function Specification() {
     this.template = '';
     this.props = ArrayList_init();
@@ -112,17 +113,46 @@ var ttmik = function (_, Kotlin) {
     obj.beforeDestroy = adaptHooks(spec.beforeDestroyHook);
     obj.template = spec.template;
   }
-  function main(args) {
-    console.log('Hello world!');
+  function declareInscription$lambda$lambda($receiver) {
+    $receiver.form = new FormInscription();
+    return Unit;
   }
+  function declareInscription$lambda$lambda$lambda() {
+    console.log('ok');
+    return Unit;
+  }
+  function declareInscription$lambda$lambda_0($receiver) {
+    $receiver.print = declareInscription$lambda$lambda$lambda;
+    return Unit;
+  }
+  function declareInscription$lambda($receiver) {
+    $receiver.el = '#app';
+    $receiver.data_5ij4lk$(declareInscription$lambda$lambda);
+    $receiver.methods_5ij4lk$(declareInscription$lambda$lambda_0);
+    return Unit;
+  }
+  function declareInscription() {
+    defineVue(declareInscription$lambda);
+  }
+  function FormInscription() {
+    this.login = '';
+    this.email = '';
+    this.password = '';
+    this.password2 = '';
+  }
+  FormInscription.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'FormInscription',
+    interfaces: []
+  };
   _.Specification = Specification;
   _.defineComponent_4t15ac$ = defineComponent;
   _.defineVue_1jphte$ = defineVue;
   _.component_1jphte$ = component;
   _.vue_1jphte$ = vue;
   _.initializeAdapt_wn2jw4$ = initializeAdapt;
-  _.main_kand9s$ = main;
-  main([]);
+  _.declareInscription = declareInscription;
+  _.FormInscription = FormInscription;
   Kotlin.defineModule('ttmik', _);
   return _;
 }(typeof ttmik === 'undefined' ? {} : ttmik, kotlin);
