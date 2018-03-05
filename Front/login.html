@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Login</title>
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+    <link type="text/css" rel="stylesheet" href="login.css"/>
 </head>
 <body>
-$END$
+    <div id="app">
+        <b-container class="p-2">
+            <b-form class="p-3 border border-secondary text-center rounded container">
+
+                <h2 class="mb-5">Login to TTMIK</h2>
+
+                <b-form-group id="loginInput"
+                              class="mx-auto"
+                              horizontal
+                              :label-cols="3"
+                              label="Login:"
+                              label-for="login">
+                    <b-form-input id="login"
+                                  type="text"
+                                  v-model="login"
+                                  required
+                                  placeholder="Your login here">
+                    </b-form-input>
+                </b-form-group>
+                <b-form-group id="passwordInput"
+                              class="mx-auto"
+                              horizontal
+                              :label-cols="3"
+                              label="Password:"
+                              label-for="password">
+                    <b-form-input id="password"
+                                  type="password"
+                                  required
+                                  v-model="password"
+                                  placeholder="Your password here">
+                    </b-form-input>
+                </b-form-group>
+                <b-form-group id="loginbuttons" class="text-center">
+                    <b-button type="submit" variant="primary">Login</b-button>
+                    <b-button type="submit" variant="secondary">Create</b-button>
+                </b-form-group>
+            </b-form>
+        </b-container>
+    </div>
+
+<script type="text/javascript" src="js/vue.js"></script>
+<script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+
+<script type="text/javascript" src="target/classes/lib/kotlin.js"></script>
+<script type="text/javascript" src="target/classes/ttmik.js"></script>
+<script type="text/javascript" src="js/kotlinVue.js"></script>
+
+<script>
+    ttmik.loginDeclare();
+</script>
+
 </body>
 </html>
