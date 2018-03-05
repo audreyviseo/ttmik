@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc0672e-f1f6-4eb7-b2a1-36564426a6b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Front/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Front/src/script-inscription.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Front/style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Front/Front.iml" afterPath="$PROJECT_DIR$/Front/Front.iml" />
       <change beforePath="$PROJECT_DIR$/Front/inscription.html" afterPath="$PROJECT_DIR$/Front/inscription.html" />
-      <change beforePath="$PROJECT_DIR$/Front/js/kotlinVue.js" afterPath="$PROJECT_DIR$/Front/js/kotlinVue.js" />
-      <change beforePath="$PROJECT_DIR$/Front/js/vue.js" afterPath="$PROJECT_DIR$/Front/js/vue.js" />
-      <change beforePath="$PROJECT_DIR$/Front/src/kotlinVue.kt" afterPath="$PROJECT_DIR$/Front/src/kotlinVue.kt" />
-      <change beforePath="$PROJECT_DIR$/production/Back/META-INF/Back.kotlin_module" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/Back/MainKt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/Front/Front.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/Front/Front.meta.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/Front/Front/root-package.kjsm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/Front/lib/kotlin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/Front/lib/kotlin.meta.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Front/src/script.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Front/target/classes/ttmik.js" afterPath="$PROJECT_DIR$/Front/target/classes/ttmik.js" />
+      <change beforePath="$PROJECT_DIR$/Front/target/classes/ttmik.js.map" afterPath="$PROJECT_DIR$/Front/target/classes/ttmik.js.map" />
+      <change beforePath="$PROJECT_DIR$/Front/target/classes/ttmik.meta.js" afterPath="$PROJECT_DIR$/Front/target/classes/ttmik.meta.js" />
+      <change beforePath="$PROJECT_DIR$/Front/target/classes/ttmik/root-package.kjsm" afterPath="$PROJECT_DIR$/Front/target/classes/ttmik/root-package.kjsm" />
     </list>
     <ignored path="$PROJECT_DIR$/Front/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,28 +25,28 @@
       <file leaf-file-name="inscription.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Front/inscription.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front/src/script.kt">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Front/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kotlinVue.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front/src/kotlinVue.kt">
+      <file leaf-file-name="script-inscription.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Front/src/script-inscription.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1958">
-              <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+            <state relative-caret-position="154">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -65,6 +58,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -81,6 +75,9 @@
       <list>
         <option value="$PROJECT_DIR$/Back/src/main.kt" />
         <option value="$PROJECT_DIR$/Front/js/vue.js" />
+        <option value="$PROJECT_DIR$/Front/src/script.kt" />
+        <option value="$PROJECT_DIR$/Front/src/script-inscription.kt" />
+        <option value="$PROJECT_DIR$/Front/style.css" />
         <option value="$PROJECT_DIR$/Front/inscription.html" />
       </list>
     </option>
@@ -155,12 +152,6 @@
               <item name="ttmik" type="b2602c69:ProjectViewProjectNode" />
               <item name="ttmik" type="462c0819:PsiDirectoryNode" />
               <item name="Front" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ttmik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ttmik" type="462c0819:PsiDirectoryNode" />
-              <item name="Front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -182,6 +173,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -293,7 +285,7 @@
       <updated>1520259205047</updated>
       <workItem from="1520259209709" duration="457000" />
       <workItem from="1520261318688" duration="229000" />
-      <workItem from="1520262494819" duration="421000" />
+      <workItem from="1520262494819" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin bugfix">
       <created>1520261520526</created>
@@ -313,25 +305,26 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1381000" />
+    <option name="totallyTimeSpent" value="5518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15037593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25295383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25295383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -375,7 +368,7 @@
         <state relative-caret-position="236940">
           <caret line="10770" column="28" lean-forward="false" selection-start-line="10770" selection-start-column="28" selection-end-line="10770" selection-end-column="28" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,7 +434,7 @@
         <state relative-caret-position="226170">
           <caret line="10770" column="28" lean-forward="false" selection-start-line="10770" selection-start-column="28" selection-end-line="10770" selection-end-column="28" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -458,7 +451,7 @@
         <state relative-caret-position="236852">
           <caret line="10770" column="28" lean-forward="false" selection-start-line="10770" selection-start-column="28" selection-end-line="10770" selection-end-column="28" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,14 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/src/kotlinVue.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/js/kotlinVue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -511,18 +496,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/src/script.kt">
+    <entry file="file://$PROJECT_DIR$/Front/src/kotlinVue.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/src/script-inscription.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Front/inscription.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
