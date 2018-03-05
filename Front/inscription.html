@@ -5,7 +5,7 @@
     <title>Sign up</title>
     <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
-    <link typer="text/css" rel="stylesheet" href="style.css">
+    <link typer="text/css" rel="stylesheet" href="style-inscription.css">
 </head>
 <body>
 
@@ -20,22 +20,25 @@
                         <b-form-input id="login"
                                       type="text"
                                       v-model="form.login"
-                                      required
                                       placeholder="Your login here"
-                                      minlength="2"
                                       maxlength="20"
+                                      :state="inputState"
                                       >
                         </b-form-input>
+                        <b-form-invalid-feedback id="inputLiveFeedback">
+                            Login required
+                        </b-form-invalid-feedback>
                     </b-form-group>
                     <b-form-group horizontal label="Email :"
                                   label-for="email">
                         <b-form-input id="email"
-                                      type="email"
                                       v-model="form.email"
-                                      required
                                       placeholder="Your email here"
-                                      maxlength="50">
+                                      :state="emailState">
                         </b-form-input>
+                        <b-form-invalid-feedback >
+                            Email required
+                        </b-form-invalid-feedback>
                     </b-form-group>
                     <b-form-group horizontal label="Password :"
                                   label-for="password">

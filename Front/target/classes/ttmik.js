@@ -121,14 +121,34 @@ var ttmik = function (_, Kotlin) {
     console.log('ok');
     return Unit;
   }
+  function declareInscription$lambda$lambda$lambda_0(this$) {
+    return function (email) {
+      return this$.Pattern.compile('^(([\\w-]+\\.)+[\\w-]+|([a-zA-Z]|[\\w-]{2,}))@' + '((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?' + '[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.' + '([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?' + '[0-9]{1,2}|25[0-5]|2[0-4][0-9]))|' + '([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$').matcher(email).matches();
+    };
+  }
   function declareInscription$lambda$lambda_0($receiver) {
-    $receiver.print = declareInscription$lambda$lambda$lambda;
+    $receiver.check = declareInscription$lambda$lambda$lambda;
+    $receiver.validateEmail = declareInscription$lambda$lambda$lambda_0($receiver);
+    return Unit;
+  }
+  function declareInscription$lambda$lambda$lambda_1(that) {
+    return that.form.login.length > 1 && that.form.login.length < 21;
+  }
+  function declareInscription$lambda$lambda$lambda_2(this$) {
+    return function (that) {
+      return that.form.email.length > 0 && that.form.email.length < 51 && this$.validateEmail(that.form.email);
+    };
+  }
+  function declareInscription$lambda$lambda_1($receiver) {
+    $receiver.inputState = declareInscription$lambda$lambda$lambda_1;
+    $receiver.emailState = declareInscription$lambda$lambda$lambda_2($receiver);
     return Unit;
   }
   function declareInscription$lambda($receiver) {
     $receiver.el = '#app';
     $receiver.data_5ij4lk$(declareInscription$lambda$lambda);
     $receiver.methods_5ij4lk$(declareInscription$lambda$lambda_0);
+    $receiver.computed_5ij4lk$(declareInscription$lambda$lambda_1);
     return Unit;
   }
   function declareInscription() {
